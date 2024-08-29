@@ -1,0 +1,41 @@
+.personagem-selecionado {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-family: "Oxanium", sans-serif;
+    background-color: #000000;
+    color: #fff;
+}
+
+.personagem-selecionado img.personagem-grande {
+    width: 429px;
+    max-width: 100%;
+}
+
+.personagem-selecionado .info-personagem {
+    max-width: 483px;
+}
+
+.personagem-selecionado .info-personagem h1 {
+    font-size: 20px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    border-bottom: solid 2.5px #47F4FF;
+}
+
+.personagem-selecionado .info-personagem p {
+    padding: 20px 30px;
+    text-align: center;
+}
+
+@media (width <= 576px) {
+    .personagem-selecionado .info-personagem h1 {
+        width: 80%;
+        margin-inline: auto;
+    }
+}
