@@ -1,5 +1,5 @@
 .personagem-selecionado {
-    min-height: 100dvh;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,7 +33,7 @@
     text-align: center;
 }
 
-@media (width <= 576px) {
+@media (width <=576px) {
     .personagem-selecionado .info-personagem h1 {
         width: 80%;
         margin-inline: auto;
