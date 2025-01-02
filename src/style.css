@@ -10,9 +10,21 @@
     color: #fff;
 }
 
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
 .personagem-selecionado img.personagem-grande {
     width: 429px;
     max-width: 100%;
+    animation: float 5s ease-in-out infinite;
 }
 
 .personagem-selecionado .info-personagem {
