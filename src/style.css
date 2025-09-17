@@ -47,7 +47,7 @@
 
 @media (width <=576px) {
     .personagem-selecionado .info-personagem h1 {
-        width: 80.1%;
+        width: 80%;
         margin-inline: auto;
     }
 }
